@@ -1,0 +1,32 @@
+.container {
+    margin: auto;
+    max-width: 960px;
+}
+
+.h1-header {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.instruction-content {
+    margin: auto;
+    width: 100%;
+}
+
+.instruction-content p{
+    margin: 10px;
+}
+
+#crystal-container {
+    margin: auto;
+    max-width: 100%;
+    
+}
+
+.crystal-img {
+    margin: auto;
+    max-width: 25%;
+    float: none;
+}
