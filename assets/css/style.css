@@ -19,14 +19,23 @@
     margin: 10px;
 }
 
-#crystal-container {
+.crystal-content {
+    width: 100%;
     margin: auto;
-    max-width: 100%;
-    
+}
+
+#crystal-container {
+ 
+    max-width: 960px;
 }
 
 .crystal-img {
     margin: auto;
-    max-width: 25%;
-    float: none;
+    float: left;
 }
+
+.crystal-img img {
+    margin: auto;
+    max-width: 240px;
+}
+ 
