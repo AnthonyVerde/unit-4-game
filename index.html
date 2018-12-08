@@ -25,22 +25,11 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 h1-header">
+            <div class="col-12 h1-header">
                 <h1>The Crystal Collector</h1>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 instruction-content">
-                <p>You have been shown a random number below.</p>
-
-                <p>• Each crystal has been assigned its own random value. Each time you click a crystal, its value will
-                    be added to your total score.</p>
-
-                <p>• Your task is to click each crystal to add your total value up to match the random number
-                    displayed.</p>
-
-                <p>• If you can add up to the number shown, you win! If your total goes over, you lose!</p>
-
-                <p>Lose five times, the game will reset and you'll have to try all over again. Win five times, you'll
-                    be a Crystal Collector master and the game will reset.</p>
+            <div class="col-12 instruction-content">
+                <p>Below is a big, blue, randomly-generated number and four crystals. Each crystal has been assigned a secret numerical value. Clicking each score adds to your total score. Match your score to the random number and you win. Go over, you lose. Win 5 times to become the Master. Lost 5 times and you'll have to start over.</p>
 
                 <p>Enjoy!</p>
             </div>
@@ -49,27 +38,30 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div id="random-number-box">
+                    <h2>Random number:</h2>
                     <p id="numberGuess"></p>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col">
+            <div class="col-4">
                 <div id="your-score-box">
-                    <h3 id="your-score"></h3>
+                    <h3>Your score:</h3>
+                    <p id="your-score"></p>
                 </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-4">
                 <div id="wins-box">
+                    <h3>Wins:</h3>
                     <p id="wins-text"></p>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+
+            <div class="col-4">
                 <div id="losses-box">
+                    <h3>Lives left:</h3>
                     <p id="lives-text"></p>
                 </div>
             </div>
@@ -79,19 +71,19 @@
         <div class="row crystal-content">
             <div id="col-md-12 crystal-container">
 
-                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 crystal-img">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 crystal-img">
                     <img src="assets/images/crystal-1.png">
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 crystal-img">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 crystal-img">
                     <img src="assets/images/crystal-2.png">
                 </div>
  
-                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 crystal-img">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 crystal-img">
                     <img src="assets/images/crystal-3.png">
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 crystal-img">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 crystal-img">
                     <img src="assets/images/crystal-4.png">
                 </div>
 
